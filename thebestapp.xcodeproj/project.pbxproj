@@ -28,14 +28,14 @@
 /* Begin PBXFileReference section */
 		0DEC06FC1A806DDE00A2FCD3 /* thebestapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thebestapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEC07001A806DDE00A2FCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DEC07011A806DDE00A2FCD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DEC07031A806DDE00A2FCD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0DEC07061A806DDE00A2FCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0DEC07081A806DDE00A2FCD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0DEC07011A806DDE00A2FCD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DEC07031A806DDE00A2FCD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViewController.swift; sourceTree = "<group>"; };
+		0DEC07061A806DDE00A2FCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DEC07081A806DDE00A2FCD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		0DEC070B1A806DDE00A2FCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0DEC07111A806DDE00A2FCD3 /* thebestappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thebestappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DEC07111A806DDE00A2FCD3 /* thebestappTests */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = thebestappTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEC07161A806DDE00A2FCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DEC07171A806DDE00A2FCD3 /* thebestappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thebestappTests.swift; sourceTree = "<group>"; };
+		0DEC07171A806DDE00A2FCD3 /* thebestappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = thebestappTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				0DEC06FC1A806DDE00A2FCD3 /* thebestapp.app */,
-				0DEC07111A806DDE00A2FCD3 /* thebestappTests.xctest */,
+				0DEC07111A806DDE00A2FCD3 /* thebestappTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			);
 			name = thebestappTests;
 			productName = thebestappTests;
-			productReference = 0DEC07111A806DDE00A2FCD3 /* thebestappTests.xctest */;
+			productReference = 0DEC07111A806DDE00A2FCD3 /* thebestappTests */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -405,6 +405,7 @@
 				0DEC071D1A806DDE00A2FCD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DEC071E1A806DDE00A2FCD3 /* Build configuration list for PBXNativeTarget "thebestappTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				0DEC07201A806DDE00A2FCD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
